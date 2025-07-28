@@ -27,5 +27,5 @@ jobs:
         env:
           PAT: ${{ secrets.PAT_TO_PUSH }}
         run: |
-          git remote add fork https://x-access-token:${PAT}@github.com/devclub-nstru/Sevi.git
+          git remote add fork https://vedpawar2254:${PAT}@github.com/devclub-nstru/Sevi.git
           git push fork --mirror
